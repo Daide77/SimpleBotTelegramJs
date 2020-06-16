@@ -118,6 +118,7 @@ bot.on('message', (msg) => {
        bot.sendMessage( chatId, 'KO...')                                                                            ;
        process.exit(0)                                                                                              ;
     } else {
+      // DO YOUR STUFF HERE  
       bot.sendMessage( chatId                                                                                      , 
     	             ('Received your message :'+msg.text) )                                                         ;
     }
