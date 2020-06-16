@@ -1,0 +1,39 @@
+{
+  "Telegram" : 
+  {
+    "Token"     : "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    ,
+    "MainChat"  : -1234567890                                        ,
+    "AcessList" : [ 
+       { 
+	"Id"    : 999999999                                          ,
+	"Name"  : "Fil FILLL"
+       }                                                             ,	
+       { 
+	"Id"    : 66666666                                           ,
+	"Name"  : "Dave77 Davez"
+       }	
+     ]   
+  }                                                                  ,
+  "Comandi"  :
+  {
+   "ping"       : {
+                   "label"   : "ping"                                ,
+                   "comand"  : "/usr/bin/ping"                       ,
+                   "args"    : [ "google.it" ]                       ,
+                   "minutes" : 1                                       
+    }                                                                ,
+   "tunnel"     : {
+                   "label"   : "tunnel"                              ,
+                   "comand"  : "/usr/bin/ping"                       ,
+                   "args"    : [ "miosito.it" ]                      ,
+                   "minutes" : 15                                       
+    }                                                                ,
+   "ngrokSSH"   : {
+                   "label"   : "ngrokSSH"                            ,
+                   "comand"  : "/home/davide/bin/NgRok/ngrok"        ,
+                   "args"    : [ "tcp", "22" ]                       ,
+                   "minutes" : 15                                    ,
+                   "infoUrl" : "http://127.0.0.1:4040/api/tunnels"
+    }	                             
+  }    	  
+}
