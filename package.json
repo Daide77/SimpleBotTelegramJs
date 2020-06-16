@@ -1,0 +1,19 @@
+{
+  "name": "simplbottelegramjs",
+  "version": "1.0.0",
+  "description": "A simple example",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daide77/simplbottelegramjs.git"
+  },
+  "author": "Dave77",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daide77/simplbottelegramjs/issues"
+  },
+  "homepage": "https://github.com/Daide77/simplbottelegramjs#readme"
+}
