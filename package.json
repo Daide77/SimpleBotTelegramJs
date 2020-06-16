@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Daide77/simplbottelegramjs/issues"
   },
-  "homepage": "https://github.com/Daide77/simplbottelegramjs#readme"
+  "homepage": "https://github.com/Daide77/simplbottelegramjs#readme",
+  "dependencies": {
+    "console-stamp": "^0.2.9",
+    "node-telegram-bot-api": "^0.50.0"
+  }
 }
