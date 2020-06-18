@@ -1,5 +1,5 @@
 # simplbottelegramjs
-
+# Usage:
 First create a new bot using BotFather ( see /newbot part ):
 https://core.telegram.org/bots
 
