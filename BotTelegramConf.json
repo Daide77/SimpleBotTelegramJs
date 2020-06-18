@@ -22,12 +22,6 @@
                    "args"    : [ "google.it" ]                       ,
                    "minutes" : 1                                       
     }                                                                ,
-   "tunnel"     : {
-                   "label"   : "tunnel"                              ,
-                   "comand"  : "/usr/bin/ping"                       ,
-                   "args"    : [ "miosito.it" ]                      ,
-                   "minutes" : 15                                       
-    }                                                                ,
    "ngrokSSH"   : {
                    "label"   : "ngrokSSH"                            ,
                    "comand"  : "/home/davide/bin/NgRok/ngrok"        ,
