@@ -115,8 +115,12 @@ bot.on('message', (msg) => {
       }                                                 
       }
     } else if ( Words[0] == 'Riavvia' ) { 
-       bot.sendMessage( chatId, 'KO...')                                                                            ;
-       process.exit(0)                                                                                              ;
+       bot.sendMessage( chatId, 'OK ritorno subito!...')                                                            ;
+       setTimeout(
+                  process.exit                                                                                     , 
+	          3000                                                                                             ,
+	          0
+	         )                                                                                                  ;
     } else {
       // DO YOUR STUFF HERE  
       bot.sendMessage( chatId                                                                                      , 
