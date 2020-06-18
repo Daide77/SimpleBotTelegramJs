@@ -1,6 +1,14 @@
 # simplbottelegramjs
+
+# Install
+Install the needed libraries:
+```bash
+npm install .
+```
+and you're ready to go!
+
 # Usage:
-First create a new bot using BotFather ( see /newbot part ):
+Create a new bot using BotFather ( see /newbot part ):
 https://core.telegram.org/bots
 
 Then edit the config file ( BotTelegramConf.json )
@@ -13,11 +21,7 @@ To use it you should send a message like this ( open a tunnel for 5 minutes )
 ```bash
 Esegui ngrokSSH 5
 ```
-Then get the needed libraries:
-```bash
-npm install .
-```
-and you're ready to go!
+For all the others incoming chat from authorized users it behaves like an echo bot, but you're free to change it.
 
 If you want simplbottelegramjs up and running at boot time you could use pm2:
 https://pm2.keymetrics.io/
