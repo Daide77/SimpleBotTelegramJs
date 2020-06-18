@@ -12,12 +12,19 @@ Create a new bot using BotFather ( see /newbot part ):
 https://core.telegram.org/bots
 
 Then edit the config file ( BotTelegramConf.json )
+
 Once you filled the Token field, you should fill the AcessList with the ids of your trusted users.
+
 'Comandi' sections gives you the ability to run external programs for a given amount of time.
+
 ping is just an example.
+
 ngrokSSH it's another example that gives you the possibility to open an ssh tunnel for a given amount of time using ngrok,
+
 but you have to install and configure it berofe ( see https://ngrok.com/ ) and fill the section accordingly.
+
 To use it you should send a message like this ( open a tunnel for 5 minutes )
+
 ```bash
 Esegui ngrokSSH 5
 ```
