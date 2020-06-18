@@ -1,4 +1,4 @@
-# simplbottelegramjs
+# SimpleBotTelegramJs
 
 # Install:
 Install the needed libraries:
