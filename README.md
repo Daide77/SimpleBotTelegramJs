@@ -1,6 +1,6 @@
 # simplbottelegramjs
 
-# Install
+# Install:
 Install the needed libraries:
 ```bash
 npm install .
