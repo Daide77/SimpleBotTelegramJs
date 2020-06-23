@@ -6,15 +6,15 @@ require('console-stamp')(console, 'yyyy-mm-dd  HH:MM:ss.l')                     
 var   TimeProcess  = require("./MyLibs/TimeProcess.js")                                                             ;
 
 var   liveData     = {}                                                                                             ;
-const options      = {
-                      polling: true
-}                                                                                                                   ;
+const options      = { polling: true }                                                                              ;
 
 const bot = new TelegramBot( ConfFromFile.Telegram.Token                                                           , 
 	                     options 
                            )                                                                                        ; 
 var getMe = bot.getMe()                                                                                             ;
 getMe.then( function( result ) {
+                                bot.sendMessage( ConfFromFile.Telegram.MainChat                                    ,
+                                'Sono OnLine!')                                                                     ;
                                 console.log( "connected" )                                                          ;
 		               },function(err) {
                                 console.log( err.toString() )                                                       ;
@@ -22,9 +22,6 @@ getMe.then( function( result ) {
 				process.exit(1)                                                                     ;      
 		               })                                                                                   ;
 
-// https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#events
-bot.sendMessage( ConfFromFile.Telegram.MainChat, 'Sono nuovamente OnLine!')                                         ;
- 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id                                                                                        ;
   console.log( "msg from " + msg.from.id + " Name:" + msg.from.first_name )                                         ;
